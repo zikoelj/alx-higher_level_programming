@@ -6,5 +6,8 @@ list_result = divisible_by_2(my_list)
 
 i = 0
 while i < len(list_result):
-    print("{:d} {:s} divisible by 2".format(my_list[i], "is" if list_result[i] else "is not"))
+    if list_result[i]:
+        print("{:d} is divisible by 2".format(my_list[i]))
+    else:
+        print("{:d} is not divisible by 2".format(my_list[i]))
     i += 1
