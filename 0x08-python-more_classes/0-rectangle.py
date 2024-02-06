@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""A class representing a Rectangle."""
+
+
 class Rectangle:
-    """create a class called rectangle"""
+    """Placeholder statement indicating no action."""
     pass
